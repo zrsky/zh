@@ -1,0 +1,351 @@
+html,
+body,
+ul,i,a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+}
+i {
+    cursor:pointer;
+}
+a {
+    color:#777;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+/*导航*/
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 1px 1px #EAE8E8;
+}
+.navigator .setting {
+    margin-top: -5px;
+}
+.Icon {
+    fill: #9fadc7;
+    vertical-align: text-bottom;
+    margin-right: 6px;
+}
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: 50%;
+    margin-left: -74px;
+}
+.navigator .nav li.message {
+    position: relative;
+}
+.navigator .nav .message .num {
+    font-style: normal;
+    color: red;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+}
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #fff;
+}
+.TopstorySideBar-navIcon {
+    fill: #9fadc7;
+}
+a.lg {
+    position: relative;
+}
+a.lg svg {
+    position: absolute;
+    top: 4px;
+    left: 18px;
+}
+a.lg span.ano {
+    position: relative;
+    top: 1px;
+    left: 21px;
+}
+/*/导航*/
+/*top*/
+.top {
+    background-color: #fff;
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.top .media .media-left {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+.top .media .media-body {
+    color: #9A9797;
+    overflow: visible;
+}
+.top .media .media-body .change {
+    cursor: pointer;
+}
+.top .media .media-body .answer {
+    color: #000;
+    margin: 20px 0 20px -172px;
+    font-size: 14px;
+
+}
+.top .media-body, .top .media-left, .top .media-right {
+    width: auto;
+}
+.top button:focus {
+    outline: none;
+}
+.question_bottom {
+    color: #777; 
+}
+.question_bottom .write_answer {
+    margin: 0;
+    fill: #777;
+    margin-right: 4px;
+}
+.question_bottom  svg {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -4px 5px 0 20px;
+}
+.top_right {
+    text-align: center;
+}
+.top_right div.left {
+    border-right: 1px solid #f0f2f7;
+}
+.top_right p {
+    color: #8590a6;
+}
+.top_right span {
+    color:#000;
+    font-size: 18px;
+    display: inline-block;
+}
+.comment_top .main .media-object {
+    display: inline-block;
+    
+}
+.comment_top .media-left {
+    margin-bottom: 10px;
+}
+.comment_top .media-bottom svg {
+    margin: 0 5px 0 0;
+}
+.comment_top .media-bottom svg.svg_huifu {
+    margin-left: 10px;
+}
+.comment_top .media-object .username {
+    font-size:16px;
+    font-weight:normal;
+    color: #2F2F2F;
+}
+.comment_top .form-control {
+    display: inline-block;
+    width: 79%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+/*/top*/
+/*middle*/
+.middle .content {
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0px 1px 1px #EAE8E8;
+    border: 1px solid #EAE8E8;
+    padding: 15px;
+}
+.middle .content .media .form-control {
+    resize: none;
+    margin-left: -45px;
+    display: block;
+    width: 60%;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.media-body {
+    position: relative;
+    display: inline-block;
+}
+.middle {
+    margin-bottom: 20px;
+}
+.middle .content {
+    display: none;
+}
+.middle .content .media #submit1 {
+    left: 60%;
+    margin-left: -157px;
+    top: 110px;
+    position: absolute;
+}
+.middle .comment_count {
+     background: #fff;
+     margin-bottom: 0;
+     margin-top: 10px;
+     border-bottom: 1px solid #F1EFEF;
+     border-radius: 3px;
+     height: 50px;
+     line-height: 50px;
+     font-size: 18px;
+     font-weight: bold;
+     padding-left: 20px;
+}
+.middle .answer .main .media {
+    // margin-top: 10px;
+    background: #fff;
+    border-bottom: 1px solid #F1EFEF;
+    border-radius: 3px;
+    // box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    font-size: 16px;
+    padding: 20px 20px 0px 20px;
+    display:block;
+}
+.middle .answer .main .media .media-middle {
+    vertical-align: inherit;
+}
+.middle .answer .main .media .from {
+    color: #777;
+    margin-bottom: 9px;
+    display: inline-block;
+}
+.middle .answer .main .media .media-object {
+    display:inline-block;
+}
+.middle .answer .main .media .username {
+    color:#000;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.middle .answer .main .media .media-body {
+    margin: 15px 0;
+    // height: 20px;
+}
+.middle .answer .main .media .media-body h4 {
+    margin-bottom: 10px;
+}
+.middle .answer .main .media .media-body .more {
+    color:#777;
+    text-decoration: underline;
+}
+.middle .answer .main .media .media-heading {
+    font-weight: bold;
+}
+.middle .answer .main .media .media-body, .media-left, .media-right {
+    display: block;
+}
+.media-body,.media {
+  width: 100%;
+}
+.middle .answer .main .media .media-bottom p {
+    vertical-align: middle;
+    color: #777;
+}
+.middle .answer .main .media .media-bottom span {
+    display: inline-block;
+    vertical-align:middle;
+    padding-top: 2px;
+}
+.middle .answer .main .media .media-bottom i {
+    margin-right: 15px;
+}
+.middle .answer .main .media .media-bottom b {
+    font-weight: normal;
+}
+.comment {
+    display: none;
+}
+.comment .countCtm {
+    border-bottom: 1px solid #f0f2f7;
+    height: 30px;
+    font-size: 18px;
+}
+.comment .media-left {
+    margin-top: 10px;
+}
+.comment .writeCmt {
+        display: inline-block;
+    border-top: 1px solid #f0f2f7;
+    padding: 10px 0;
+    width: 100%;
+}
+.comment .huifuInput {
+    margin-bottom: 8px;
+}
+.comment .writeCmt input, .comment .huifuInput input {
+    width: 80%;
+    display: inline-block;
+}
+.comment .delete {
+    display: inline;
+}
+.comment .delete:hover .Icon,.comment .delete:hover i {
+    fill:blue;
+    color:blue;
+    cursor:pointer;
+}
+.comment .huifuInput {
+    width: 100%;
+    display: none;
+}
+.comment .answer .active {
+    display:inline-block;
+}
+.active {
+    display:block;
+}
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 80%;
+    margin: auto;
+}
+.top .media .modal-title {
+    text-align: center;
+    color:#000;
+}
+/*/middle*/

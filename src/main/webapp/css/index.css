@@ -1,0 +1,252 @@
+html,
+body,
+ul,i,a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+}
+i {
+    cursor:pointer;
+}
+a {
+    color:#777;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+/*导航*/
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px #EAE8E8;
+}
+.navigator .setting {
+    margin-top: -5px;
+}
+.Icon {
+    fill: #9fadc7;
+    vertical-align: text-bottom;
+    margin-right: 6px;
+}
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: 50%;
+    margin-left: -74px;
+}
+.navigator .nav li.message {
+    position: relative;
+}
+.navigator .nav .message .num {
+    font-style: normal;
+    color: red;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+}
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #fff;
+}
+.TopstorySideBar-navIcon {
+    fill: #9fadc7;
+}
+a.lg {
+    position: relative;
+}
+a.lg svg {
+    position: absolute;
+    top: 4px;
+    left: 18px;
+}
+a.lg span.ano {
+    position: relative;
+    top: 1px;
+    left: 21px;
+}
+/*/导航*/
+/*内容部分*/
+.content .top {
+    height: 58px;
+    background: #fff;
+    border: 1px solid #F1EFEF;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    line-height: 58px;
+    font-size: 16px;
+}
+.content .top a:hover {
+    text-decoration: none;
+
+}
+.content .top a {
+    color:#000;
+}
+.content .top #modal {
+    background: #fff;
+    padding: 0;
+    font-size: 16px;
+}
+.content .top .modal-title {
+    text-align: center;
+}
+.content .top #modal:focus {
+    outline: none;
+}
+.content .top .top-left {
+    padding: 0 40px;
+}
+.content .top .top-left span {
+    margin: 0 20px;
+}
+.content .top .top-right {
+    padding: 0 20px;
+    color: #777;
+}
+/*/内容部分*/
+/*主体部分*/
+.main .media {
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #F1EFEF;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    font-size: 16px;
+    padding: 20px 20px 0px 20px;
+}
+.main .media .media-middle {
+    vertical-align: inherit;
+}
+.main .media .from {
+    color: #777;
+    margin-bottom: 9px;
+    display: inline-block;
+}
+.main .media .media-object {
+    display:inline-block;
+}
+.main .media .username {
+    color:#000;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.main .media .media-body {
+    margin: 15px 0;
+    // height: 20px;
+}
+.main .media .media-body h4 {
+    margin-bottom: 10px;
+}
+.main .media .media-body .more {
+    color:#777;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main .media .media-heading {
+    font-weight: bold;
+}
+.main .media .media-body, .media-left, .media-right {
+    display: block;
+}
+.media-body,.media {
+  width: 100%;
+}
+.content .top .form-group .form-control {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    resize: none;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.main .media .media-bottom p {
+    vertical-align: middle;
+    color: #777;
+}
+.main .media .media-bottom span {
+    display: inline-block;
+    vertical-align:middle;
+    padding-top: 2px;
+}
+.main .media .media-bottom i {
+    margin-right: 15px;
+}
+.main .media .media-bottom b {
+    font-weight: normal;
+}
+
+.commentListByArticleId {
+    display: none;
+}
+.comment .countCtm {
+    border-bottom: 1px solid #f0f2f7;
+    height: 30px;
+    font-size: 18px;
+}
+.comment .media-left {
+    margin-top: 10px;
+}
+.comment .writeCmt, .comment .huifuInput{
+        display: inline-block;
+    border-top: 1px solid #f0f2f7;
+    padding: 10px 0;
+    width: 100%;
+}
+.comment .writeCmt input, .comment .huifuInput input {
+    width: 80%;
+    display: inline-block;
+}
+.comment .delete {
+    display: inline;
+}
+.comment .delete:hover .Icon,.comment .delete:hover i {
+    fill:blue;
+    color:blue;
+    cursor:pointer;
+}
+.comment .huifuInput {
+    display: none;
+}
+.commentListByArticleId .active {
+    display:inline-block;
+}
+.active {
+    display:block;
+}
+/*/主体部分*/
+

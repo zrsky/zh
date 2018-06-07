@@ -1,0 +1,183 @@
+html,
+body,
+ul,i,a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+/*导航*/
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px #EAE8E8;
+}
+.navigator .setting {
+    margin-top: -5px;
+}
+.Icon {
+    fill: #fff;
+    vertical-align: text-bottom;
+    margin-right: 6px;
+}
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: 50%;
+    margin-left: -74px;
+}
+.navigator .nav li.message {
+    position: relative;
+}
+.navigator .nav .message .num {
+    font-style: normal;
+    color: red;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+}
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #fff;
+}
+.TopstorySideBar-navIcon {
+    fill: #9fadc7;
+}
+a.lg {
+    position: relative;
+}
+a.lg svg {
+    position: absolute;
+    top: 4px;
+    left: 18px;
+}
+a.lg span.ano {
+    position: relative;
+    top: 1px;
+    left: 21px;
+}
+/*/导航*/
+/*版心*/
+section#answer .box {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+section#answer .box .topic {
+  font-size: 15px;
+  font-weight: bold;
+}
+section#answer .box .topic a {
+  color: #259;
+}
+section#answer .box span {
+  margin-top: 5px;
+  display: inline-block;
+  color: #837F7F;
+}
+/*/版心*/
+/*bootstrap源码*/
+.navbar-default {
+  background-color: #648BE5;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #648BE5;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #648BE5;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #648BE5;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #648BE5;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: #fff;
+}
+.navbar-default .navbar-link:hover {
+  color: #fff;
+}
+.navbar-default .btn-link {
+  color: #fff;
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #fff;
+}
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+
+/*/bootstrap源码*/

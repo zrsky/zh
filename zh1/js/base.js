@@ -25,7 +25,8 @@
                 newHtml = countText;
             }
             TextBox.html(newHtml);
-            TextBox.on("click", ".more", function() {
+            TextBox.on("click", ".more", function(e) {
+                e.preventDefault();
                 if ($(this).text() == openBtn) {
                     TextBox.html(countText + ' <span class="more">' + closeBtn + '</span>');
                 } else {
